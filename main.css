@@ -1,0 +1,42 @@
+body {
+    font: Arial;
+    font-size: large;
+    color: white;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding: 50px;
+    background-color: orange;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#show-quote {
+    margin-top: 30px;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    font-size: small;
+    padding: 7em;
+}
+
